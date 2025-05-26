@@ -53,6 +53,7 @@
             this.btVotar.TabIndex = 1;
             this.btVotar.Text = "&Votar";
             this.btVotar.UseVisualStyleBackColor = true;
+            this.btVotar.Click += new System.EventHandler(this.btVotar_Click);
             // 
             // btResultado
             // 
@@ -74,6 +75,7 @@
             this.Controls.Add(this.btGerenciar);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
