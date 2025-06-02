@@ -64,6 +64,7 @@
             this.btResultado.TabIndex = 2;
             this.btResultado.Text = "&Resultado";
             this.btResultado.UseVisualStyleBackColor = true;
+            this.btResultado.Click += new System.EventHandler(this.btResultado_Click);
             // 
             // Form1
             // 
